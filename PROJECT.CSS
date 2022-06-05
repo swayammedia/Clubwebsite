@@ -78,52 +78,51 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: #bfd3df;
+    color: #fff;
     border-radius: 20px;
 }
-header ul li a.active,
-header ul li a:hover
+header ul li a:hover,
+header ul li a.active
 {
     background: #fff;
     color: #2b1055;
 }
-.text-container{
+
+h1{
     max-width: 600px;
-    margin-top: 15%;
-    margin-left: 10%;
-}
-.text-container h1{
-    font-size: 80px;
-    font-weight: 400;
-    color: #bfd3df;
-}
-.text-container a{
-    text-decoration: none;
-    background: #00986f;
-    padding: 14px 40px;
-    display: inline-block;
+    margin-top: 8%;
+    margin-left: 30%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
     color: #fff;
-    font-size: 18px;
-    margin-top: 30px;
-    border-radius: 30px;
-}
-.text-container a.is-active,
-.text-container a:hover
-{
-    background: #fff;
-    color: #2b1055
+    font-size: xx-large;
 }
 
-.text-container p{
-    font-weight: regular;
-    font-size: 17px;
-    color: #fff;
-}
-.img {
-    position: absolute;
-    top: 60px;
-    right: 100%;
-    left: 48%;
-    width: 800px;
+
+.portfolio .box-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding:2rem 0;
 }
 
+.portfolio .box-container .box{
+	height: 20rem;
+	width: 26rem;
+	border-radius: 1rem;
+	margin:2rem;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.portfolio .box-container .box img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.portfolio .box-container .box:hover img{
+	transform: scale(1.2);
+}

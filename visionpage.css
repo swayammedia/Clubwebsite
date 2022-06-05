@@ -81,49 +81,65 @@ header ul li a
     color: #bfd3df;
     border-radius: 20px;
 }
-header ul li a.active,
-header ul li a:hover
+header ul li a:hover,
+header ul li a.active
 {
     background: #fff;
     color: #2b1055;
 }
-.text-container{
-    max-width: 600px;
-    margin-top: 15%;
-    margin-left: 10%;
+#blub{ 
+     margin-top: 120px;
+     
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+ }
+ #elements{ 
+    list-style: none;
+  }
+  input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    z-index: 99;
+  }
+  div{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: #18191f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 0 20px;
+    border-radius: 20px;
+    color: yellow;
+    text-shadow: 0 0 35px yellow;,0 0 35px yellow; 
+    animation: light 1.5s linear infinite;
 }
-.text-container h1{
-    font-size: 80px;
-    font-weight: 400;
-    color: #bfd3df;
+@keyframes light{
+    0%{
+       filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
-.text-container a{
-    text-decoration: none;
-    background: #00986f;
-    padding: 14px 40px;
-    display: inline-block;
-    color: #fff;
-    font-size: 18px;
-    margin-top: 30px;
-    border-radius: 30px;
-}
-.text-container a.is-active,
-.text-container a:hover
-{
-    background: #fff;
-    color: #2b1055
+p{ 
+    font-size: 25px;
+    margin-left: 250px;
+ }
+#vision{
+    position: relative;
+    display: flex;
+    margin-left: 400px;
 }
 
-.text-container p{
-    font-weight: regular;
-    font-size: 17px;
-    color: #fff;
-}
-.img {
-    position: absolute;
-    top: 60px;
-    right: 100%;
-    left: 48%;
-    width: 800px;
-}
+
 

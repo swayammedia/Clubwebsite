@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-*{
- margin: 0;
- padding: 0;
- box-sizing:border-box;
- font-family:'Poppins',sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
 }
+
 body{
 	margin:0;
 	padding:0;
@@ -78,24 +80,24 @@ header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
-    color: #bfd3df;
+    color: #fff;
     border-radius: 20px;
 }
-header ul li a.active,
-header ul li a:hover
+header ul li a:hover,
+header ul li a.active
 {
     background: #fff;
     color: #2b1055;
 }
 .text-container{
     max-width: 600px;
-    margin-top: 15%;
-    margin-left: 10%;
+    margin-top: 12%;
+    margin-left: 50%;
 }
 .text-container h1{
     font-size: 80px;
     font-weight: 400;
-    color: #bfd3df;
+    color: #fff;
 }
 .text-container a{
     text-decoration: none;
@@ -107,8 +109,8 @@ header ul li a:hover
     margin-top: 30px;
     border-radius: 30px;
 }
-.text-container a.is-active,
-.text-container a:hover
+.text-container a:hover,
+.text-container a.active
 {
     background: #fff;
     color: #2b1055
@@ -117,13 +119,87 @@ header ul li a:hover
 .text-container p{
     font-weight: regular;
     font-size: 17px;
-    color: #fff;
 }
 .img {
     position: absolute;
-    top: 60px;
-    right: 100%;
-    left: 48%;
-    width: 800px;
+    top: 150px;
+    right: 20%;
+    left: 7%;
+    width: 500px;
 }
+
+.container {
+  position: absolute;
+  top: 70px;
+  margin: 20px 40px;
+  color: white;
+}
+
+.heading {
+  font-size: 60px;
+  color: white;
+}
+
+.heading span {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 70px;
+}
+
+.profile {
+  flex-basis: auto;
+  margin: 30px;
+}
+
+.profile .profile-img {
+  height: 260px;
+  width: 260px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.profile:hover .profile-img {
+  filter: grayscale(0);
+}
+
+.user-name {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.profile h5 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #ccc;
+}
+
+.profile p {
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+p{
+    font-weight: normal;
+    font-size: 30px;
+    margin: 40px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+
+
+
+
+
 
