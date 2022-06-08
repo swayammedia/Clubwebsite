@@ -88,7 +88,7 @@ header ul li a.active
     color: #2b1055;
 }
 h2{
-    margin-bottom: 50vh;
+    margin-bottom: 51vh;
     text-align: center;
     color: rgb(221, 255, 0);
 }
@@ -104,9 +104,9 @@ p{
 img {
     position: absolute;
     top: 120px;
-    right: 100%;
-    left: 40%;
-    width: 300px;
+    right: 130%;
+    left: 42%;
+    width: 250px;
 }
 .code a{
     text-decoration: none;
@@ -117,7 +117,7 @@ img {
     font-size: 18px;
     border-radius: 30px;
     position: relative;
-   bottom: 200px;
+   bottom: 250px;
    left: 400px;
 }
 .code a:hover,
@@ -136,7 +136,7 @@ img {
     font-size: 18px;
     border-radius: 30px;
     position: relative;
-   bottom: 255px;
+   bottom: 307px;
    left: 860px;
 }
 .code1 a:hover,
