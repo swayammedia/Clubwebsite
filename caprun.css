@@ -118,7 +118,7 @@ p{
     border-radius: 30px;
     position: relative;
    bottom: 270px;
-   left: 645px;
+   left: 500px;
 }
 .code a:hover,
 .code a.active
@@ -136,8 +136,8 @@ p{
     font-size: 18px;
     border-radius: 30px;
     position: relative;
-   bottom: 307px;
-   left: 860px;
+   bottom: 323px;
+   left: 820px;
 }
 .code1 a:hover,
 .code1 a.active
